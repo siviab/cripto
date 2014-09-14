@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4188D50D19C609D500224D8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D50C19C609D500224D8F /* Foundation.framework */; };
+		4188D50F19C609D500224D8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D50E19C609D500224D8F /* CoreGraphics.framework */; };
+		4188D51119C609D500224D8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D51019C609D500224D8F /* UIKit.framework */; };
+		4188D51719C609D500224D8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4188D51519C609D500224D8F /* InfoPlist.strings */; };
+		4188D51919C609D500224D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D51819C609D500224D8F /* main.m */; };
+		4188D51D19C609D500224D8F /* tutorialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D51C19C609D500224D8F /* tutorialAppDelegate.m */; };
+		4188D52019C609D500224D8F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4188D51E19C609D500224D8F /* Main_iPhone.storyboard */; };
+		4188D52319C609D500224D8F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4188D52119C609D500224D8F /* Main_iPad.storyboard */; };
+		4188D52619C609D500224D8F /* tutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D52519C609D500224D8F /* tutorialViewController.m */; };
+		4188D52819C609D500224D8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4188D52719C609D500224D8F /* Images.xcassets */; };
+		4188D52F19C609D500224D8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D52E19C609D500224D8F /* XCTest.framework */; };
+		4188D53019C609D500224D8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D50C19C609D500224D8F /* Foundation.framework */; };
+		4188D53119C609D500224D8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D51019C609D500224D8F /* UIKit.framework */; };
+		4188D53919C609D500224D8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4188D53719C609D500224D8F /* InfoPlist.strings */; };
+		4188D53B19C609D500224D8F /* criptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D53A19C609D500224D8F /* criptoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4188D53219C609D500224D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4188D50119C609D500224D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4188D50819C609D500224D8F;
+			remoteInfo = cripto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4188D50919C609D500224D8F /* cripto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cripto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4188D50C19C609D500224D8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4188D50E19C609D500224D8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4188D51019C609D500224D8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4188D51419C609D500224D8F /* cripto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cripto-Info.plist"; sourceTree = "<group>"; };
+		4188D51619C609D500224D8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4188D51819C609D500224D8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4188D51A19C609D500224D8F /* cripto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cripto-Prefix.pch"; sourceTree = "<group>"; };
+		4188D51B19C609D500224D8F /* tutorialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tutorialAppDelegate.h; sourceTree = "<group>"; };
+		4188D51C19C609D500224D8F /* tutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tutorialAppDelegate.m; sourceTree = "<group>"; };
+		4188D51F19C609D500224D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4188D52219C609D500224D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4188D52419C609D500224D8F /* tutorialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tutorialViewController.h; sourceTree = "<group>"; };
+		4188D52519C609D500224D8F /* tutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tutorialViewController.m; sourceTree = "<group>"; };
+		4188D52719C609D500224D8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4188D52D19C609D500224D8F /* criptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = criptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4188D52E19C609D500224D8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4188D53619C609D500224D8F /* criptoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "criptoTests-Info.plist"; sourceTree = "<group>"; };
+		4188D53819C609D500224D8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4188D53A19C609D500224D8F /* criptoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = criptoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4188D50619C609D500224D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4188D50F19C609D500224D8F /* CoreGraphics.framework in Frameworks */,
+				4188D51119C609D500224D8F /* UIKit.framework in Frameworks */,
+				4188D50D19C609D500224D8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4188D52A19C609D500224D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4188D52F19C609D500224D8F /* XCTest.framework in Frameworks */,
+				4188D53119C609D500224D8F /* UIKit.framework in Frameworks */,
+				4188D53019C609D500224D8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4188D50019C609D500224D8F = {
+			isa = PBXGroup;
+			children = (
+				4188D51219C609D500224D8F /* cripto */,
+				4188D53419C609D500224D8F /* criptoTests */,
+				4188D50B19C609D500224D8F /* Frameworks */,
+				4188D50A19C609D500224D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4188D50A19C609D500224D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4188D50919C609D500224D8F /* cripto.app */,
+				4188D52D19C609D500224D8F /* criptoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4188D50B19C609D500224D8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4188D50C19C609D500224D8F /* Foundation.framework */,
+				4188D50E19C609D500224D8F /* CoreGraphics.framework */,
+				4188D51019C609D500224D8F /* UIKit.framework */,
+				4188D52E19C609D500224D8F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4188D51219C609D500224D8F /* cripto */ = {
+			isa = PBXGroup;
+			children = (
+				4188D51B19C609D500224D8F /* tutorialAppDelegate.h */,
+				4188D51C19C609D500224D8F /* tutorialAppDelegate.m */,
+				4188D51E19C609D500224D8F /* Main_iPhone.storyboard */,
+				4188D52119C609D500224D8F /* Main_iPad.storyboard */,
+				4188D52419C609D500224D8F /* tutorialViewController.h */,
+				4188D52519C609D500224D8F /* tutorialViewController.m */,
+				4188D52719C609D500224D8F /* Images.xcassets */,
+				4188D51319C609D500224D8F /* Supporting Files */,
+			);
+			path = cripto;
+			sourceTree = "<group>";
+		};
+		4188D51319C609D500224D8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4188D51419C609D500224D8F /* cripto-Info.plist */,
+				4188D51519C609D500224D8F /* InfoPlist.strings */,
+				4188D51819C609D500224D8F /* main.m */,
+				4188D51A19C609D500224D8F /* cripto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4188D53419C609D500224D8F /* criptoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4188D53A19C609D500224D8F /* criptoTests.m */,
+				4188D53519C609D500224D8F /* Supporting Files */,
+			);
+			path = criptoTests;
+			sourceTree = "<group>";
+		};
+		4188D53519C609D500224D8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4188D53619C609D500224D8F /* criptoTests-Info.plist */,
+				4188D53719C609D500224D8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4188D50819C609D500224D8F /* cripto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4188D53E19C609D500224D8F /* Build configuration list for PBXNativeTarget "cripto" */;
+			buildPhases = (
+				4188D50519C609D500224D8F /* Sources */,
+				4188D50619C609D500224D8F /* Frameworks */,
+				4188D50719C609D500224D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cripto;
+			productName = cripto;
+			productReference = 4188D50919C609D500224D8F /* cripto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4188D52C19C609D500224D8F /* criptoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4188D54119C609D500224D8F /* Build configuration list for PBXNativeTarget "criptoTests" */;
+			buildPhases = (
+				4188D52919C609D500224D8F /* Sources */,
+				4188D52A19C609D500224D8F /* Frameworks */,
+				4188D52B19C609D500224D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4188D53319C609D500224D8F /* PBXTargetDependency */,
+			);
+			name = criptoTests;
+			productName = criptoTests;
+			productReference = 4188D52D19C609D500224D8F /* criptoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4188D50119C609D500224D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tutorial;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "my self";
+				TargetAttributes = {
+					4188D52C19C609D500224D8F = {
+						TestTargetID = 4188D50819C609D500224D8F;
+					};
+				};
+			};
+			buildConfigurationList = 4188D50419C609D500224D8F /* Build configuration list for PBXProject "cripto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4188D50019C609D500224D8F;
+			productRefGroup = 4188D50A19C609D500224D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4188D50819C609D500224D8F /* cripto */,
+				4188D52C19C609D500224D8F /* criptoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4188D50719C609D500224D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4188D52319C609D500224D8F /* Main_iPad.storyboard in Resources */,
+				4188D52819C609D500224D8F /* Images.xcassets in Resources */,
+				4188D52019C609D500224D8F /* Main_iPhone.storyboard in Resources */,
+				4188D51719C609D500224D8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4188D52B19C609D500224D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4188D53919C609D500224D8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4188D50519C609D500224D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4188D51D19C609D500224D8F /* tutorialAppDelegate.m in Sources */,
+				4188D52619C609D500224D8F /* tutorialViewController.m in Sources */,
+				4188D51919C609D500224D8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4188D52919C609D500224D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4188D53B19C609D500224D8F /* criptoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4188D53319C609D500224D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4188D50819C609D500224D8F /* cripto */;
+			targetProxy = 4188D53219C609D500224D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4188D51519C609D500224D8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4188D51619C609D500224D8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4188D51E19C609D500224D8F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4188D51F19C609D500224D8F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4188D52119C609D500224D8F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4188D52219C609D500224D8F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4188D53719C609D500224D8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4188D53819C609D500224D8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4188D53C19C609D500224D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4188D53D19C609D500224D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4188D53F19C609D500224D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cripto/cripto-Prefix.pch";
+				INFOPLIST_FILE = "cripto/cripto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4188D54019C609D500224D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cripto/cripto-Prefix.pch";
+				INFOPLIST_FILE = "cripto/cripto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4188D54219C609D500224D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cripto.app/cripto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cripto/cripto-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "criptoTests/criptoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4188D54319C609D500224D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cripto.app/cripto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cripto/cripto-Prefix.pch";
+				INFOPLIST_FILE = "criptoTests/criptoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4188D50419C609D500224D8F /* Build configuration list for PBXProject "cripto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4188D53C19C609D500224D8F /* Debug */,
+				4188D53D19C609D500224D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4188D53E19C609D500224D8F /* Build configuration list for PBXNativeTarget "cripto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4188D53F19C609D500224D8F /* Debug */,
+				4188D54019C609D500224D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4188D54119C609D500224D8F /* Build configuration list for PBXNativeTarget "criptoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4188D54219C609D500224D8F /* Debug */,
+				4188D54319C609D500224D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4188D50119C609D500224D8F /* Project object */;
+}
