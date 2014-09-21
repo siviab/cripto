@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface tutorialAppDelegate : UIResponder <UIApplicationDelegate>
+@interface SAAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

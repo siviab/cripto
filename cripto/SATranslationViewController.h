@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface tutorialViewController : UIViewController
+@interface SATranslationViewController : UIViewController
 
 
 @end

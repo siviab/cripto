@@ -12,10 +12,10 @@
 		4188D51119C609D500224D8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D51019C609D500224D8F /* UIKit.framework */; };
 		4188D51719C609D500224D8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4188D51519C609D500224D8F /* InfoPlist.strings */; };
 		4188D51919C609D500224D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D51819C609D500224D8F /* main.m */; };
-		4188D51D19C609D500224D8F /* tutorialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D51C19C609D500224D8F /* tutorialAppDelegate.m */; };
+		4188D51D19C609D500224D8F /* SAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D51C19C609D500224D8F /* SAAppDelegate.m */; };
 		4188D52019C609D500224D8F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4188D51E19C609D500224D8F /* Main_iPhone.storyboard */; };
 		4188D52319C609D500224D8F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4188D52119C609D500224D8F /* Main_iPad.storyboard */; };
-		4188D52619C609D500224D8F /* tutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D52519C609D500224D8F /* tutorialViewController.m */; };
+		4188D52619C609D500224D8F /* SATranslationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D52519C609D500224D8F /* SATranslationViewController.m */; };
 		4188D52F19C609D500224D8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D52E19C609D500224D8F /* XCTest.framework */; };
 		4188D53019C609D500224D8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D50C19C609D500224D8F /* Foundation.framework */; };
 		4188D53119C609D500224D8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D51019C609D500224D8F /* UIKit.framework */; };
@@ -49,12 +49,12 @@
 		4188D51619C609D500224D8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4188D51819C609D500224D8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4188D51A19C609D500224D8F /* cripto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cripto-Prefix.pch"; sourceTree = "<group>"; };
-		4188D51B19C609D500224D8F /* tutorialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tutorialAppDelegate.h; sourceTree = "<group>"; };
-		4188D51C19C609D500224D8F /* tutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tutorialAppDelegate.m; sourceTree = "<group>"; };
+		4188D51B19C609D500224D8F /* SAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAAppDelegate.h; sourceTree = "<group>"; };
+		4188D51C19C609D500224D8F /* SAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAAppDelegate.m; sourceTree = "<group>"; };
 		4188D51F19C609D500224D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		4188D52219C609D500224D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		4188D52419C609D500224D8F /* tutorialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tutorialViewController.h; sourceTree = "<group>"; };
-		4188D52519C609D500224D8F /* tutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tutorialViewController.m; sourceTree = "<group>"; };
+		4188D52419C609D500224D8F /* SATranslationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SATranslationViewController.h; sourceTree = "<group>"; };
+		4188D52519C609D500224D8F /* SATranslationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SATranslationViewController.m; sourceTree = "<group>"; };
 		4188D52D19C609D500224D8F /* criptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = criptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4188D52E19C609D500224D8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4188D53619C609D500224D8F /* criptoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "criptoTests-Info.plist"; sourceTree = "<group>"; };
@@ -128,12 +128,12 @@
 			isa = PBXGroup;
 			children = (
 				41B387CF19CEDE890003E76A /* images */,
-				4188D51B19C609D500224D8F /* tutorialAppDelegate.h */,
-				4188D51C19C609D500224D8F /* tutorialAppDelegate.m */,
+				4188D51B19C609D500224D8F /* SAAppDelegate.h */,
+				4188D51C19C609D500224D8F /* SAAppDelegate.m */,
 				4188D51E19C609D500224D8F /* Main_iPhone.storyboard */,
 				4188D52119C609D500224D8F /* Main_iPad.storyboard */,
-				4188D52419C609D500224D8F /* tutorialViewController.h */,
-				4188D52519C609D500224D8F /* tutorialViewController.m */,
+				4188D52419C609D500224D8F /* SATranslationViewController.h */,
+				4188D52519C609D500224D8F /* SATranslationViewController.m */,
 				4188D51319C609D500224D8F /* Supporting Files */,
 			);
 			path = cripto;
@@ -286,8 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4188D51D19C609D500224D8F /* tutorialAppDelegate.m in Sources */,
-				4188D52619C609D500224D8F /* tutorialViewController.m in Sources */,
+				4188D51D19C609D500224D8F /* SAAppDelegate.m in Sources */,
+				4188D52619C609D500224D8F /* SATranslationViewController.m in Sources */,
 				4188D51919C609D500224D8F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

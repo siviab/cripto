@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 my self. All rights reserved.
 //
 
-#import "tutorialAppDelegate.h"
+#import "SAAppDelegate.h"
 
-@implementation tutorialAppDelegate
+@implementation SAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

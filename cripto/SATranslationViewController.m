@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 my self. All rights reserved.
 //
 
-#import "tutorialViewController.h"
+#import "SATranslationViewController.h"
 
-@interface tutorialViewController ()
+@interface SATranslationViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *textInTextField;
 @property (weak, nonatomic) IBOutlet UITextView *textOutTextView;
 - (IBAction)didPressStartButton:(id)sender;
 
 @end
 
-@implementation tutorialViewController
+@implementation SATranslationViewController
 
 - (void)viewDidLoad
 {
