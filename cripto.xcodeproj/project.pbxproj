@@ -117,13 +117,8 @@
 		4188D51219C609D500224D8F /* cripto */ = {
 			isa = PBXGroup;
 			children = (
-				41B387CF19CEDE890003E76A /* images */,
-				4188D51B19C609D500224D8F /* SAAppDelegate.h */,
-				4188D51C19C609D500224D8F /* SAAppDelegate.m */,
-				4188D51E19C609D500224D8F /* Main_iPhone.storyboard */,
-				4188D52119C609D500224D8F /* Main_iPad.storyboard */,
-				4188D52419C609D500224D8F /* SATranslationViewController.h */,
-				4188D52519C609D500224D8F /* SATranslationViewController.m */,
+				41B387E119CF3B1F0003E76A /* Translation */,
+				41B387E019CF3AB10003E76A /* General */,
 				4188D51319C609D500224D8F /* Supporting Files */,
 			);
 			path = cripto;
@@ -159,12 +154,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		41B387CF19CEDE890003E76A /* images */ = {
+		41B387E019CF3AB10003E76A /* General */ = {
 			isa = PBXGroup;
 			children = (
+				4188D51B19C609D500224D8F /* SAAppDelegate.h */,
+				4188D51C19C609D500224D8F /* SAAppDelegate.m */,
+				4188D51E19C609D500224D8F /* Main_iPhone.storyboard */,
+				4188D52119C609D500224D8F /* Main_iPad.storyboard */,
 			);
-			path = images;
-			sourceTree = SOURCE_ROOT;
+			name = General;
+			sourceTree = "<group>";
+		};
+		41B387E119CF3B1F0003E76A /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				4188D52419C609D500224D8F /* SATranslationViewController.h */,
+				4188D52519C609D500224D8F /* SATranslationViewController.m */,
+			);
+			name = Translation;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
