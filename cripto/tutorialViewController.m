@@ -9,6 +9,9 @@
 #import "tutorialViewController.h"
 
 @interface tutorialViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textInTextField;
+@property (weak, nonatomic) IBOutlet UITextView *textOutTextView;
+- (IBAction)didPressStartButton:(id)sender;
 
 @end
 
@@ -18,6 +21,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.textInTextField.text = @"shalom";
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +30,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)didPressStartButton:(id)sender {
+    self.textOutTextView.text = self.textInTextField.text;
+}
 @end

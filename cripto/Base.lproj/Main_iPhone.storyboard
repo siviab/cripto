@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment defaultVersion="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Tutorial View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="tutorialViewController" sceneMemberID="viewController">
@@ -15,16 +16,78 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="siw-5R-FtJ">
+                                <rect key="frame" x="0.0" y="12" width="320" height="556"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translucent="NO" shadowImage="BACK3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wxw-jH-xLV">
+                                <rect key="frame" x="-1" y="-32" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="PCF-gs-c4U"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="titleSheCodes.png" translatesAutoresizingMaskIntoConstraints="NO" id="aEe-2P-7W0">
+                                <rect key="frame" x="20" y="-8" width="280" height="146"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDg-Fm-HGY">
+                                <rect key="frame" x="72" y="422" width="176" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="start" backgroundImage="butR.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="butP.png"/>
+                                <state key="highlighted" backgroundImage="butP.png"/>
+                                <connections>
+                                    <action selector="didPressStartButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XNC-1T-LFf"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" background="textIn.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q7y-uK-KZ7">
+                                <rect key="frame" x="54" y="125" width="213" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wjP-2u-TwP">
+                                <rect key="frame" x="20" y="199" width="268" height="182"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="textOut.png" translatesAutoresizingMaskIntoConstraints="NO" id="HR2-hJ-5ck">
+                                        <rect key="frame" x="-4" y="17" width="275" height="149"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="helo my friend :)" translatesAutoresizingMaskIntoConstraints="NO" id="Z1p-eF-e5H">
+                                        <rect key="frame" x="14" y="27" width="240" height="128"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="textInTextField" destination="Q7y-uK-KZ7" id="90c-Vc-pc5"/>
+                        <outlet property="textOutTextView" destination="Z1p-eF-e5H" id="5RW-UA-Keo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="188" y="128"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BACK3.jpg" width="400" height="224"/>
+        <image name="background.png" width="577" height="913"/>
+        <image name="butP.png" width="197" height="150"/>
+        <image name="butR.png" width="121" height="74"/>
+        <image name="textIn.png" width="333" height="258"/>
+        <image name="textOut.png" width="333" height="258"/>
+        <image name="titleSheCodes.png" width="588" height="245"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <color key="tintColor" red="0.023529414089999999" green="0.96862751250000001" blue="0.80392163989999998" alpha="1" colorSpace="deviceRGB"/>
 </document>

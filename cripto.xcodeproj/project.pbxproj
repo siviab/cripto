@@ -16,12 +16,18 @@
 		4188D52019C609D500224D8F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4188D51E19C609D500224D8F /* Main_iPhone.storyboard */; };
 		4188D52319C609D500224D8F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4188D52119C609D500224D8F /* Main_iPad.storyboard */; };
 		4188D52619C609D500224D8F /* tutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D52519C609D500224D8F /* tutorialViewController.m */; };
-		4188D52819C609D500224D8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4188D52719C609D500224D8F /* Images.xcassets */; };
 		4188D52F19C609D500224D8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D52E19C609D500224D8F /* XCTest.framework */; };
 		4188D53019C609D500224D8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D50C19C609D500224D8F /* Foundation.framework */; };
 		4188D53119C609D500224D8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188D51019C609D500224D8F /* UIKit.framework */; };
 		4188D53919C609D500224D8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4188D53719C609D500224D8F /* InfoPlist.strings */; };
 		4188D53B19C609D500224D8F /* criptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D53A19C609D500224D8F /* criptoTests.m */; };
+		4188E0BE19C6165700224D8F /* CODEINFO.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4188E0BD19C6165700224D8F /* CODEINFO.plist */; };
+		41B387D619CEDE890003E76A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B387D019CEDE890003E76A /* background.png */; };
+		41B387D719CEDE890003E76A /* butP.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B387D119CEDE890003E76A /* butP.png */; };
+		41B387D819CEDE890003E76A /* butR.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B387D219CEDE890003E76A /* butR.png */; };
+		41B387D919CEDE890003E76A /* textIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B387D319CEDE890003E76A /* textIn.png */; };
+		41B387DA19CEDE890003E76A /* textOut.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B387D419CEDE890003E76A /* textOut.png */; };
+		41B387DB19CEDE890003E76A /* titleSheCodes.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B387D519CEDE890003E76A /* titleSheCodes.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +55,18 @@
 		4188D52219C609D500224D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		4188D52419C609D500224D8F /* tutorialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tutorialViewController.h; sourceTree = "<group>"; };
 		4188D52519C609D500224D8F /* tutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tutorialViewController.m; sourceTree = "<group>"; };
-		4188D52719C609D500224D8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4188D52D19C609D500224D8F /* criptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = criptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4188D52E19C609D500224D8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4188D53619C609D500224D8F /* criptoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "criptoTests-Info.plist"; sourceTree = "<group>"; };
 		4188D53819C609D500224D8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4188D53A19C609D500224D8F /* criptoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = criptoTests.m; sourceTree = "<group>"; };
+		4188E0BD19C6165700224D8F /* CODEINFO.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CODEINFO.plist; sourceTree = "<group>"; };
+		41B387D019CEDE890003E76A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		41B387D119CEDE890003E76A /* butP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butP.png; sourceTree = "<group>"; };
+		41B387D219CEDE890003E76A /* butR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butR.png; sourceTree = "<group>"; };
+		41B387D319CEDE890003E76A /* textIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textIn.png; sourceTree = "<group>"; };
+		41B387D419CEDE890003E76A /* textOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textOut.png; sourceTree = "<group>"; };
+		41B387D519CEDE890003E76A /* titleSheCodes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleSheCodes.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,7 @@
 		4188D50019C609D500224D8F = {
 			isa = PBXGroup;
 			children = (
+				4188E0BD19C6165700224D8F /* CODEINFO.plist */,
 				4188D51219C609D500224D8F /* cripto */,
 				4188D53419C609D500224D8F /* criptoTests */,
 				4188D50B19C609D500224D8F /* Frameworks */,
@@ -114,13 +127,13 @@
 		4188D51219C609D500224D8F /* cripto */ = {
 			isa = PBXGroup;
 			children = (
+				41B387CF19CEDE890003E76A /* images */,
 				4188D51B19C609D500224D8F /* tutorialAppDelegate.h */,
 				4188D51C19C609D500224D8F /* tutorialAppDelegate.m */,
 				4188D51E19C609D500224D8F /* Main_iPhone.storyboard */,
 				4188D52119C609D500224D8F /* Main_iPad.storyboard */,
 				4188D52419C609D500224D8F /* tutorialViewController.h */,
 				4188D52519C609D500224D8F /* tutorialViewController.m */,
-				4188D52719C609D500224D8F /* Images.xcassets */,
 				4188D51319C609D500224D8F /* Supporting Files */,
 			);
 			path = cripto;
@@ -154,6 +167,19 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		41B387CF19CEDE890003E76A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				41B387D019CEDE890003E76A /* background.png */,
+				41B387D119CEDE890003E76A /* butP.png */,
+				41B387D219CEDE890003E76A /* butR.png */,
+				41B387D319CEDE890003E76A /* textIn.png */,
+				41B387D419CEDE890003E76A /* textOut.png */,
+				41B387D519CEDE890003E76A /* titleSheCodes.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -233,8 +259,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4188D52319C609D500224D8F /* Main_iPad.storyboard in Resources */,
-				4188D52819C609D500224D8F /* Images.xcassets in Resources */,
+				41B387D919CEDE890003E76A /* textIn.png in Resources */,
+				41B387D619CEDE890003E76A /* background.png in Resources */,
+				41B387D719CEDE890003E76A /* butP.png in Resources */,
 				4188D52019C609D500224D8F /* Main_iPhone.storyboard in Resources */,
+				41B387D819CEDE890003E76A /* butR.png in Resources */,
+				41B387DB19CEDE890003E76A /* titleSheCodes.png in Resources */,
+				4188E0BE19C6165700224D8F /* CODEINFO.plist in Resources */,
+				41B387DA19CEDE890003E76A /* textOut.png in Resources */,
 				4188D51719C609D500224D8F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cripto/cripto-Prefix.pch";
 				INFOPLIST_FILE = "cripto/cripto-Info.plist";
@@ -404,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cripto/cripto-Prefix.pch";
 				INFOPLIST_FILE = "cripto/cripto-Info.plist";
@@ -471,6 +505,7 @@
 				4188D54019C609D500224D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4188D54119C609D500224D8F /* Build configuration list for PBXNativeTarget "criptoTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +514,7 @@
 				4188D54319C609D500224D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
