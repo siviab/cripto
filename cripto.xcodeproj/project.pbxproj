@@ -22,6 +22,7 @@
 		4188D53919C609D500224D8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4188D53719C609D500224D8F /* InfoPlist.strings */; };
 		4188D53B19C609D500224D8F /* criptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188D53A19C609D500224D8F /* criptoTests.m */; };
 		4188E0BE19C6165700224D8F /* CODEINFO.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4188E0BD19C6165700224D8F /* CODEINFO.plist */; };
+		4198FE5819E93D17006C1901 /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198FE5719E93D17006C1901 /* CDSideBarController.m */; };
 		41B387DF19CF38C80003E76A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B387DE19CF38C80003E76A /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,8 @@
 		4188D53819C609D500224D8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4188D53A19C609D500224D8F /* criptoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = criptoTests.m; sourceTree = "<group>"; };
 		4188E0BD19C6165700224D8F /* CODEINFO.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CODEINFO.plist; sourceTree = "<group>"; };
+		4198FE5719E93D17006C1901 /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
+		4198FE5919E93D62006C1901 /* CDSideBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
 		41B387DE19CF38C80003E76A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +120,7 @@
 		4188D51219C609D500224D8F /* cripto */ = {
 			isa = PBXGroup;
 			children = (
+				4198FE5419E93BF7006C1901 /* CDSideBarController */,
 				41B387E119CF3B1F0003E76A /* Translation */,
 				41B387E019CF3AB10003E76A /* General */,
 				4188D51319C609D500224D8F /* Supporting Files */,
@@ -152,6 +156,15 @@
 				4188D53719C609D500224D8F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4198FE5419E93BF7006C1901 /* CDSideBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4198FE5719E93D17006C1901 /* CDSideBarController.m */,
+				4198FE5919E93D62006C1901 /* CDSideBarController.h */,
+			);
+			name = CDSideBarController;
 			sourceTree = "<group>";
 		};
 		41B387E019CF3AB10003E76A /* General */ = {
@@ -275,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4188D51D19C609D500224D8F /* SAAppDelegate.m in Sources */,
+				4198FE5819E93D17006C1901 /* CDSideBarController.m in Sources */,
 				4188D52619C609D500224D8F /* SATranslationViewController.m in Sources */,
 				4188D51919C609D500224D8F /* main.m in Sources */,
 			);

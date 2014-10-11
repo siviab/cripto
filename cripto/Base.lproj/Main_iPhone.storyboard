@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -27,10 +26,15 @@
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="titleSheCodes" translatesAutoresizingMaskIntoConstraints="NO" id="aEe-2P-7W0">
-                                <rect key="frame" x="20" y="-8" width="280" height="146"/>
+                                <rect key="frame" x="19" y="0.0" width="280" height="146"/>
                             </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" background="textIn.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q7y-uK-KZ7">
+                                <rect key="frame" x="53" y="146" width="213" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDg-Fm-HGY">
-                                <rect key="frame" x="72" y="422" width="176" height="74"/>
+                                <rect key="frame" x="71" y="474" width="176" height="74"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="start" backgroundImage="butR">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -41,24 +45,18 @@
                                     <action selector="didPressStartButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XNC-1T-LFf"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" background="textIn.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q7y-uK-KZ7">
-                                <rect key="frame" x="54" y="125" width="213" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wjP-2u-TwP">
-                                <rect key="frame" x="20" y="199" width="268" height="182"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZVx-j5-yJ1">
+                                <rect key="frame" x="28" y="302" width="262" height="143"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="textOut" translatesAutoresizingMaskIntoConstraints="NO" id="HR2-hJ-5ck">
-                                        <rect key="frame" x="-4" y="17" width="275" height="149"/>
+                                        <rect key="frame" x="-7" y="-3" width="275" height="149"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="helo my friend :)" translatesAutoresizingMaskIntoConstraints="NO" id="Z1p-eF-e5H">
-                                        <rect key="frame" x="14" y="27" width="240" height="128"/>
+                                        <rect key="frame" x="11" y="8" width="240" height="128"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -72,14 +70,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="188" y="128"/>
+            <point key="canvasLocation" x="64" y="147"/>
         </scene>
     </scenes>
     <resources>
         <image name="BACK3.jpg" width="400" height="224"/>
         <image name="background" width="577" height="913"/>
         <image name="butP.png" width="197" height="150"/>
-        <image name="butR" width="121" height="74"/>
+        <image name="butR" width="197" height="149"/>
         <image name="textIn.png" width="333" height="258"/>
         <image name="textOut" width="333" height="258"/>
         <image name="titleSheCodes" width="588" height="245"/>

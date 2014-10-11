@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CDSideBarController.h"
 
-@interface SATranslationViewController : UIViewController
-
+@interface SATranslationViewController : UIViewController <
+    CDSideBarControllerDelegate>
+{
+    CDSideBarController *sideBar;
+}
 
 @end
