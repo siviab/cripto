@@ -44,7 +44,7 @@
 {
     [super viewDidAppear:animated];
     
-    [sideBar insertMenuButtonOnView:[UIApplication sharedApplication].delegate.window atPosition:CGPointMake(self.view.frame.size.width - 70, 50)];
+    [sideBar insertMenuButtonOnView:[UIApplication sharedApplication].delegate.window atPosition:CGPointMake(self.view.frame.size.width -50, 100)];
 }
 
 - (void)didReceiveMemoryWarning {

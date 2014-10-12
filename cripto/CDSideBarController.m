@@ -20,7 +20,7 @@
 {
     _menuButton = [UIButton buttonWithType:UIButtonTypeCustom];
     _menuButton.frame = CGRectMake(0, 0, 40, 40);
-    [_menuButton setImage:[UIImage imageNamed:@"languge.jpg"] forState:UIControlStateNormal];
+    [_menuButton setImage:[UIImage imageNamed:@"langb.jpg"] forState:UIControlStateNormal];
     [_menuButton addTarget:self action:@selector(showMenu) forControlEvents:UIControlEventTouchUpInside];
     
     _backgroundMenuView = [[UIView alloc] init];
